@@ -1,0 +1,47 @@
+html {
+    background-color: bisque;
+  }
+  
+  body {
+      margin: 2px;
+      padding: 2px;
+  }
+  
+  
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid rgb(226, 18, 18);
+      font-size: 30px
+  
+  }
+  
+  a {
+      text-decoration: none;
+      border-bottom: 1px solid white;
+      padding-bottom: 5px;   
+      color: aquamarine; 
+  }
+  #nav {
+    width: 50%;
+    display: flex;
+    justify-content: center
+    
+  }
+
+  footer {
+  background: #ccc;
+  position: fixed; /*pour fixer le footer en bas*/
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  
+}
+
+   

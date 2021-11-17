@@ -1,0 +1,124 @@
+html {
+  background-color: bisque;
+}
+
+body {
+    margin: 2px;
+    padding: 2px;
+}
+
+h1 {
+  color: rgb(241, 8, 152);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 5px solid rgb(226, 18, 18);
+    font-size: 30px
+
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;   
+    color: aquamarine; 
+}
+#nav {
+  width: 50%;
+  display: flex;
+  justify-content: center
+  
+}
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  
+    
+}
+.main .content .bloc{
+    
+    justify-content: center;
+    margin-bottom: 30px; 
+    margin-top: 20px;  
+}
+
+.main .content .bloc .left{
+    flex: 0 0 20%;
+    padding: 2px;
+    background-color: black;
+    color: white;
+    border-radius:20px;
+    margin-top: 20px; 
+}
+
+.main .content .bloc.right{
+    flex: 0 0 80%;
+}
+
+.main .content .bloc .right img{/* si j'enleve l'espace entre bloc et right le css change!!!!*/
+    height: 300px; /*hauteur*/
+    width: 400px; /*largeur*/
+    margin-top: 20px;   
+    
+}
+
+p {
+  color: blue;  
+  align-items: center;
+  margin: 20px;
+}
+
+#p1
+{
+    font-size: 30px;
+    background-color: rgb(179, 179, 179);
+    color: magenta;
+    border-radius:20px;
+}
+
+img {
+    height: 700px; /*hauteur*/
+    width: 600px; /*largeur*/
+    border-radius:20px;
+}
+
+
+
+.bloc {
+    position: relative;
+    text-align: center;
+    color: rgb(54, 48, 48);
+  }
+  
+.texte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px; /*hauteur*/
+    width: 200px; /*largeur*/
+  }
+
+
+title {
+  text-transform: uppercase;
+}
+
+footer {
+  background: #ccc;
+  position: static; /*pour fixer le footer en bas*/
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  
+}
