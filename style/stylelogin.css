@@ -1,47 +1,120 @@
-html {
-    background-color: bisque;
-  }
-  
-  body {
-      margin: 2px;
-      padding: 2px;
-  }
-  
-  
-  
-  header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 5px solid rgb(226, 18, 18);
-      font-size: 30px
-  
-  }
-  
-  a {
-      text-decoration: none;
-      border-bottom: 1px solid white;
-      padding-bottom: 5px;   
-      color: aquamarine; 
-  }
-  #nav {
-    width: 50%;
-    display: flex;
-    justify-content: center
-    
-  }
-
-  footer {
-  background: #ccc;
-  position: fixed; /*pour fixer le footer en bas*/
-  bottom: 0;
+#main {
   width: 100%;
-  padding-top: 10px;
-  height: 20px;
+  height: 400px;
+  color: rgb(224, 19, 19);
+  align-items: center;
+  padding-top: 5px;
+  margin-left: 0px;
+display: flex;
+}
+h1 {
+  text-align: center;
+}
+
+.flex-container {
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  align-items: center;
+  height: 1000px;
+  border-top: 5px solid rgb(255, 0, 0);
+  line-height: 250%; /*espace entre lignes*/
+ 
   
 }
 
-   
+.flex-container > div {
+  background-color: #f1f1f1;
+ 
+  width: 500px;
+  height: 550px;
+  border-radius: 10px;
+  
+}
+
+form {
+  /* centrer le formulaire sur la page */
+  margin: auto;
+  width: 40%;
+  padding: 20px;
+  
+}
+
+label,
+option {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+ 
+  
+}
+
+input,
+textarea,
+option {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+  
+  /* Pour que tous les champs texte aient la même dimension */
+  
+  box-sizing: border-box;
+  border-radius: 4px;
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button0 {
+  display: flex;
+  border-radius: 50px;
+  background-color: #d42727;
+  border: none;
+  color: #000000;
+  font-size: 21px;
+  padding: 19px;
+  height: 18px;
+  position: relative;
+  margin: -10px -50px;
+  width: 185px;
+  align-items: center;
+  left: 36%;
+  cursor: pointer;
+}
+
+.button0 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button0 span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button0:hover span {
+  padding-right: 25px;
+}
+
+.button0:hover span:after {
+  opacity: 1;
+  right: 0;
+}

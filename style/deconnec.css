@@ -1,0 +1,93 @@
+html {
+  scroll-behavior: smooth; /*ne fonctionne pas?!!!!!*/
+}
+
+
+
+body {
+ background-color: black;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 5px solid rgb(226, 18, 18);
+  font-size: 30px;
+}
+
+#line {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  color: rgb(0, 255, 55);
+}
+.rose {
+  color: rgb(240, 71, 231);
+}
+.line {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+.red {
+  color: rgb(241, 52, 52);
+}
+.line {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+.bleu {
+  color: rgb(0, 103, 238);
+}
+.line {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+.green {
+  color: rgb(77, 247, 77);
+}
+.line {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+.jaune {
+  color: rgb(243, 243, 59);
+}
+.line {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+.orange {
+  color: rgb(245, 188, 66);
+}
+.line {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+#nav {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  color: red;
+  position: static; /*pour fixer le footer en bas*/
+  font-size: 10px;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
